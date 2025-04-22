@@ -2,7 +2,7 @@ import re
 
 BAD_KEYWORDS = [
     "sex", "drugs", "violence", "kill", "hate", "naked", "murder", "blood",
-    "suicide", "alcohol", "abuse", "fight", "porn", "racist", "shoot", "weapon"
+    "suicide", "alcohol", "abuse", "fight", "porn", "racist", "shoot", "weapon","hot"
 ]
 
 BAD_PATTERN = re.compile(r'\b(' + '|'.join(BAD_KEYWORDS) + r')\b', re.IGNORECASE)
