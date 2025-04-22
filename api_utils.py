@@ -15,13 +15,11 @@ def fetch_video_details_by_channel(api_key, channel_id, max_results=10):
         video_id = item['id']['videoId']
         title = item['snippet']['title']
         description = item['snippet']['description']
-        comments = ["Comments not fetched"]
-
         videos.append({
             'video_id': video_id,
             'title': title,
             'description': description,
-            'comments': comments
+            'comments': ["Comments not fetched"]
         })
     return videos
 
@@ -40,12 +38,10 @@ def fetch_video_details_by_search(api_key, search_query, max_results=10):
         video_id = item['id']['videoId']
         title = item['snippet']['title']
         description = item['snippet']['description']
-        comments = ["Comments not fetched"]
-
         videos.append({
             'video_id': video_id,
             'title': title,
             'description': description,
-            'comments': comments
+            'comments': ["Comments not fetched"]
         })
     return videos

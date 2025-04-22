@@ -2,7 +2,7 @@ import streamlit as st
 from video_filter import get_clean_videos
 
 # Your API Key
-api_key = "AIzaSyDte8q6lIqVhJF0NobBz1fTvzFYCRQW0fY"
+api_key = "AIzaSyAYC8AavizML1DI7WT-LpC5bqU1sx9jRVc"
 
 st.set_page_config(page_title="Child Mode YouTube Viewer", layout="centered")
 
